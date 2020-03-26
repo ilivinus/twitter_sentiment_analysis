@@ -10,7 +10,7 @@ for index, Tweets in enumerate(tw.df.index):
     y = tw.df.subjectivity.loc[Tweets]
     plt.scatter(x,y, color ="Red")
 
-plt.title('Sentiment analysis', fontsize=20)
+plt.title('Elon Musk Sentiment analysis', fontsize=20)
 plt.xlabel('<- Negative ----------------Positive ->', fontsize=15)
 plt.ylabel('<- Facts--------------------Opinions ->',fontsize=15)
 plt.show()
